@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Duncan Otieno</h1>
-<h3 align="center">A passionate Data Scientist from Kenya</h3>
+<h3 align="center">A passionate Data Engineer from Kenya</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=duncan610&label=Profile%20views&color=0e75b6&style=flat" alt="duncan610" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=duncan610" alt="duncan610" /></a> </p>
 
-- 🌱 I’m currently expanding my skillsets in **Machine Learning, Data Engineering, Data Science**
+- 🌱 I’m currently expanding my skillsets in **Data Engineering, Data Science**
 
-- 👯 I’m looking to collaborate on **Machine Learning Projects, Data Engineering Projects**
+- 👯 I’m looking to collaborate on **Data Engineering Projects, Data Science Projects**
 
 - 📫 How to reach me **otienoduncan99@gmail.com**
 
