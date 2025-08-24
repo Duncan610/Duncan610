@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=duncan610" alt="duncan610" /></a> </p>
 
-- 🌱 I’m currently expanding my skillsets in **Data Engineering, Data Science**
+- 🌱 I’m currently expanding my skillsets in **Data Engineering, DevOps and Data Science**
 
-- 👯 I’m looking to collaborate on **Data Engineering Projects, Data Science Projects**
+- 👯 I’m looking to collaborate on **Data Engineering Projects, DevOps and Data Science Projects**
 
 - 📫 How to reach me **otienoduncan99@gmail.com**
 
