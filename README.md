@@ -1,8 +1,4 @@
 <!-- HEADER -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=30&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hey+👋,+I'm+Duncan+Otieno!;Data+Engineer+%7C+DevOps+%26+Cloud+Engineer;Automating+Data+Workflows+in+the+Cloud" alt="Typing SVG" />
-</h1>
-
 <h3 align="center">⚡ Data Engineering • DevOps • Cloud • Data Science ⚡</h3>
 
 <p align="center">
