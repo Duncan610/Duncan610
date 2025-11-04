@@ -1,26 +1,120 @@
-<h1 align="center">Hi 👋, I'm Duncan Otieno</h1>
-<h3 align="center">A passionate DevOps and Data Engineer from Kenya</h3>
+<!-- HEADER -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=30&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hey+👋,+I'm+Duncan+Otieno!;Data+Engineer+%7C+DevOps+%26+Cloud+Engineer;Automating+Data+Workflows+in+the+Cloud" alt="Typing SVG" />
+</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=duncan610&label=Profile%20views&color=0e75b6&style=flat" alt="duncan610" /> </p>
+<h3 align="center">⚡ Data Engineering • DevOps • Cloud • Data Science ⚡</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=duncan610" alt="duncan610" /></a> </p>
-
-- 🌱 I’m currently expanding my skillsets in **Data Engineering, DevOps and Data Science**
-
-- 👯 I’m looking to collaborate on **Data Engineering Projects, DevOps and Data Science Projects**
-
-- 📫 How to reach me **otienoduncan99@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/duncan-otieno" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/duncan-otieno" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=duncan610&label=Profile%20views&color=00F7FF&style=flat" alt="profile views"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=duncan610&show_icons=true&locale=en&layout=compact" alt="duncan610" /></p>
+### 🌍 About Me  
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=duncan610&show_icons=true&locale=en" alt="duncan610" /></p>
+💡 Passionate about **building scalable data pipelines**, automating **DevOps workflows**, and leveraging **cloud infrastructure** for efficiency.  
+🎯 Skilled in **Data Engineering, MLOps, and Infrastructure-as-Code (IaC)**.  
+🧠 Lifelong learner — exploring the intersection of **data, automation, and AI**.  
+📬 Reach me: **otienoduncan99@gmail.com**
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=duncan610&" alt="duncan610" /></p>
+---
+
+### 💻 Tech Arsenal  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,linux,aws,docker,kubernetes,terraform,git,github,jenkins,bash,vscode" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,pandas,numpy,matplotlib,seaborn" />
+</p>
+
+---
+
+### 🧠 My Tech Universe  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="30" width="100%">
+</p>
+
+<!-- Animated tech globe (replaces broken image) -->
+<p align="center">
+  <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Earth.gif" width="160px" alt="Tech Globe"/>
+</p>
+
+<!-- Futuristic looping tech animation -->
+<p align="center">
+  <img src="https://i.gifer.com/7VE.gif" width="80%" alt="Futuristic Tech Animation"/>
+</p>
+
+---
+
+### ⚙️ My Toolchain  
+
+| Category | Tools |
+|:----------|:------|
+| **Programming** | Python, Bash, SQL |
+| **Data & ML** | Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch |
+| **Databases** | PostgreSQL, MySQL |
+| **DevOps** | Docker, Kubernetes, Jenkins, Terraform |
+| **Cloud** | AWS (EC2, S3, Lambda) |
+| **Monitoring** | Prometheus, Grafana |
+| **Version Control** | Git, GitHub, GitLab |
+
+---
+
+### 📊 GitHub Insights  
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=duncan610&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=duncan610&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duncan610&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 🏆 Achievements  
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=duncan610&theme=matrix&no-frame=true&margin-w=15&column=6" alt="GitHub Trophies" />
+</p>
+
+### Let's Connect  
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/duncan-otieno" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:otienoduncan99@gmail.com">
+    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/Duncan610">
+    <img src="https://img.shields.io/badge/GitHub-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+### 🧩 Quote of the Day  
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines='Data+is+the+new+electricity,+and+Engineers+are+the+power+grid.';Keep+Building,+Keep+Automating,+Keep+Scaling." />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+  <br/>
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+</p>
+
+<p align="center">✨ Crafted with 💻 by <b>Duncan Otieno</b> ✨</p>
