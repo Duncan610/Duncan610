@@ -60,7 +60,7 @@ Building an end-to-end analytics pipeline that processes customer transaction da
 ## 💼 Technical Toolkit
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,postgresql,aws,docker,git,bash,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,postgresql,dbt,airflow,aws,docker,git,bash,vscode&theme=dark" />
 </p>
 
 <table>
