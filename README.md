@@ -36,7 +36,7 @@ Transitioning into production analytics engineering after completing a **1-year 
 
 Building an end-to-end analytics pipeline that processes customer transaction data using the modern data stack.
 
-**Stack:** dbt • PostgreSQL • Airflow • Python • Docker • Snowflake
+**Stack:** dbt • PostgreSQL • Airflow • Python • Docker • Snowflake  
 **Highlights:** Incremental ETL, data quality testing, CI/CD automation
 
 <details>
@@ -59,8 +59,31 @@ Building an end-to-end analytics pipeline that processes customer transaction da
 
 ## 💼 Technical Toolkit
 
+### Core Data Engineering Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,postgresql,dbt,airflow,aws,docker,git,bash,vscode&theme=dark" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"/>
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" alt="Airflow"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
+</p>
+
+### Cloud & DevOps
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+</p>
+
+### Data Science & ML
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
 </p>
 
 <table>
@@ -72,6 +95,7 @@ Building an end-to-end analytics pipeline that processes customer transaction da
 - **Orchestration:** Apache Airflow
 - **Transformation:** dbt (data build tool)
 - **Databases:** PostgreSQL, Snowflake
+- **Data Quality:** Great Expectations
 - **Version Control:** Git, GitHub Actions
 
 </td>
@@ -81,8 +105,9 @@ Building an end-to-end analytics pipeline that processes customer transaction da
 - **Cloud Platform:** AWS (EC2, S3, RDS, Lambda)
 - **Containerization:** Docker, Docker Compose
 - **IaC:** Terraform (learning)
-- **Data Quality:** Great Expectations
+- **BI Tools:** Tableau, Power BI (basic)
 - **ML Background:** Scikit-learn, Pandas, NumPy
+- **IDEs:** VS Code, Jupyter, PyCharm
 
 </td>
 </tr>
@@ -120,7 +145,7 @@ def approach_to_data_engineering():
 
 ---
 
-## 📊 2024 Focus Areas
+## 📊 2025 Focus Areas
 ```mermaid
 graph LR
     A[Modern Data Stack] --> B[dbt Mastery]
@@ -140,11 +165,21 @@ graph LR
 
 ---
 
+## 📍 Now
+
+*Last updated: January 2025*
+
 **Currently:**
 - 🔨 Building: Data Engineering and analytics engineering projects
 - 📚 Learning: Advanced data modeling patterns (Kimball methodology)
-- 🎯 Seeking: Data Engineer Analytics Engineer roles
+- 🎯 Seeking: Data Engineer / Analytics Engineer roles
 - 🌱 Reading: "The Data Warehouse Toolkit" by Ralph Kimball
+
+**This Week:**
+- Implementing incremental loads in dbt
+- Building Airflow DAGs for orchestration
+- Networking with data engineers on LinkedIn
+- Contributing to data engineering communities
 
 ---
 
@@ -170,10 +205,10 @@ I believe in:
 ## ⚡ Fun Fact
 
 When I'm not building data pipelines, I'm probably:
-- 🏃‍♂️ Running around Nairobi (currently training for a football tonourment)
+- ⚽ Training for a football tournament around Nairobi
 - ☕ Experimenting with pour-over coffee (yes, I track the extraction ratios in a spreadsheet)
-- 📖 Reading technical blogs 
-- 🎮 Playing chess online (data analysis extends to opening theory!)
+- 📖 Reading technical blogs and data engineering case studies
+- ♟️ Playing chess online (data analysis extends to opening theory!)
 
 *I've written SQL queries that join 10+ tables without losing my sanity. My secret? CTEs, lots of CTEs.*
 
