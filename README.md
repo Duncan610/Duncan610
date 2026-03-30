@@ -31,7 +31,7 @@ Transitioning into production analytics engineering after completing a **1-year 
 
 ## 🚀 Featured Work
 
-### 🏗️ [Project Name] — *In Development*
+### 🏗️ [Instacart Analytics pipeline]
 **Production-Grade E-Commerce Analytics Platform**
 
 Building an end-to-end analytics pipeline that processes customer transaction data using the modern data stack.
