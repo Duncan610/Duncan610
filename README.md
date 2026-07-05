@@ -1,265 +1,137 @@
-<div align="center">
-
 # Duncan Otieno
 
-### Data Engineer | Analytics Engineer • Data Pipeline Architect
+### Data Engineer | Databricks • Delta Lake • PySpark • dbt
 
-*Building reliable data infrastructure, one transformation at a time*
+*Building production-grade data pipelines, one medallion layer at a time*
 
-[LinkedIn](https://linkedin.com/in/duncan-otieno) • [Email](mailto:otienoduncan99@gmail.com) • Nairobi, Kenya 🇰🇪
-
-![Profile Views](https://komarev.com/ghpvc/?username=duncan610&style=flat-square&color=00F7FF)
-
-</div>
+[LinkedIn](https://linkedin.com/in/duncan-otieno) • [Email](mailto:otienoduncan99@gmail.com) • Nairobi, Kenya 🇰🇪 • Open to remote
 
 ---
 
 ## 👨🏾‍💻 What I Do
 
-I transform raw data into reliable insights. Currently specializing in **modern data stack engineering** with a focus on:
+I build data pipelines that solve real problems, not tutorial problems. Currently deepening platform expertise on **Databricks**, with a focus on:
 
-- **Data Modeling** → Dimensional modeling, slowly changing dimensions, data vault
-- **Pipeline Orchestration** → Airflow DAGs, dependency management, error handling  
-- **Analytics Engineering** → dbt transformations, incremental materialization, data quality
-- **Cloud Infrastructure** → AWS data services, infrastructure-as-code, cost optimization
+- **Lakehouse architecture** → Medallion (Bronze/Silver/Gold), Unity Catalog, Delta Lake, ACID + time travel
+- **Batch & incremental processing** → PySpark, MERGE-based upserts, Structured Streaming
+- **Analytics engineering** → dbt, dimensional modeling, automated testing
+- **Orchestration & CI/CD** → Databricks Workflows, GitHub Actions
+- **Cloud & warehousing** → AWS, Snowflake, DuckDB
 
-## 🎯 Current Mission
+## 🎯 Currently Building
 
-Transitioning into production analytics engineering after completing a **1-year intensive data science certification** and earning my **AWS Cloud Practitioner** certification. Building portfolio projects that solve real business problems with clean code and thoughtful architecture.
+A **fraud detection batch pipeline** on Databricks — Unity Catalog, medallion architecture, Databricks Workflows, and a Streamlit dashboard, unifying six data sources (transaction data, IP geolocation, FX rates, an SCD Type 2 IP blocklist, disposable-email detection, and a product catalog).
+
+Also working through the Hugging Face LLM and AI Agents courses, building toward AI-focused data engineering roles.
 
 ---
 
 ## 🚀 Featured Work
 
-### 🏗️ [Instacart Analytics pipeline]
-**Production-Grade E-Commerce Analytics Platform**
+### [EconMate](https://github.com/Duncan610/econmate)
+**Vulnerability Index pipeline for 15 Sub-Saharan African countries**
 
-Building an end-to-end analytics pipeline that processes customer transaction data using the modern data stack.
+Unifies economic, climate, food security, and population data into a composite Vulnerability Index — built as a real production system, not a toy dataset.
 
-**Stack:** dbt • PostgreSQL • Airflow • Python • Docker • Snowflake  
-**Highlights:** Incremental ETL, data quality testing, CI/CD automation
+**Stack:** Databricks • PySpark • Delta Lake • Unity Catalog • Databricks SQL Dashboard
 
-<details>
-<summary><b>Technical Deep Dive</b></summary>
+**Real engineering problems solved:**
+- Handled API rate limiting with exponential backoff across multiple external data sources
+- Migrated the entire pipeline's read/write layer to Unity Catalog paths mid-build after Databricks disabled DBFS root access
+- Caught duplicate data from notebook re-runs via pre-write validation logic
+- Diagnosed and fixed incomplete country coverage in the climate Bronze layer
 
-**Architecture:**
-- Medallion architecture (Bronze → Silver → Gold layers)
-- Incremental materialization for performance
-- Great Expectations for data quality
-- GitHub Actions for continuous deployment
+Implements Bronze/Silver/Gold medallion architecture, MERGE INTO upserts, and window functions for time-series indexing.
 
-**Business Impact:**
-- Reduces data processing time by 80%
-- Automated data quality checks catch 99% of issues
-- Self-service analytics layer for stakeholders
+---
 
-</details>
+### [UrbanPulse](https://github.com/Duncan610/urban-pulse-analytics-pipeline)
+**Live NYC public data pipeline with idempotent ingestion**
+
+Ingests live NYC public data from three sources, transforms it through a production-grade medallion architecture on Snowflake + dbt.
+
+**Stack:** Snowflake • dbt • Python • CI/CD • Streamlit
+
+**Highlights:**
+- Idempotent MERGE-based ingestion from live APIs
+- 57/57 passing dbt tests
+- Custom dbt schema macro
+- Deployed Streamlit dashboard for end-user analytics
+
+---
+
+### MentalHealthPulse
+**Population-level mental health early-warning pipeline**
+
+Ingests from Bluesky (AT Protocol), CDC WONDER, NOAA Climate, BLS, and SAMHSA to build an early-warning signal pipeline for population mental health trends.
+
+**Stack:** dlt • DuckDB • dbt-duckdb • Docker • GitHub Actions
+
+**Highlights:**
+- Passing dbt models and test suite
+- Containerized, reproducible pipeline via Docker
+- CI/CD via GitHub Actions
 
 ---
 
 ## 💼 Technical Toolkit
 
-### Core Data Engineering Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"/>
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" alt="Airflow"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
-</p>
+**Lakehouse & Big Data:** Databricks • PySpark • Delta Lake • Unity Catalog • Structured Streaming
 
-### Cloud & DevOps
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
-</p>
+**Analytics Engineering:** dbt • Dimensional modeling • Data quality testing
 
-### Data Science & ML
-<p align="center">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-</p>
+**Warehousing:** Snowflake • DuckDB • PostgreSQL
 
-<table>
-<tr>
-<td valign="top" width="50%">
+**Languages:** Python • SQL • Bash
 
-### Data Engineering
-- **Languages:** Python, SQL, Bash
-- **Orchestration:** Apache Airflow
-- **Transformation:** dbt (data build tool)
-- **Databases:** PostgreSQL, Snowflake
-- **Data Quality:** Great Expectations
-- **Version Control:** Git, GitHub Actions
+**Orchestration & CI/CD:** Databricks Workflows • Apache Airflow • GitHub Actions
 
-</td>
-<td valign="top" width="50%">
+**Cloud:** AWS (EC2, S3, RDS, Lambda) • AWS Certified Cloud Practitioner
 
-### Cloud & Infrastructure
-- **Cloud Platform:** AWS (EC2, S3, RDS, Lambda)
-- **Containerization:** Docker, Docker Compose
-- **IaC:** Terraform (learning)
-- **BI Tools:** Tableau, Power BI (basic)
-- **ML Background:** Scikit-learn, Pandas, NumPy
-- **IDEs:** VS Code, Jupyter, PyCharm
+**Ingestion:** dlt • REST APIs • Docker
 
-</td>
-</tr>
-</table>
+**BI / Visualization:** Streamlit • Databricks SQL Dashboards • Tableau (basic)
 
 ---
 
-## 📈 What Makes Me Different
+## 🎓 Certifications & Learning
 
-**🔍 Detail-Oriented Engineering**  
-I don't just make pipelines work—I make them maintainable, testable, and cost-efficient.
-
-**🧠 Business-First Mindset**  
-Every technical decision traces back to business value. Data engineering isn't just moving data—it's enabling better decisions.
-
-**📚 Continuous Learner**  
-From data science certification to cloud engineering to analytics engineering—I'm always expanding my technical horizons.
-
-**🌍 Global Perspective, Local Impact**  
-Based in Nairobi, building skills that compete globally while looking to create impact locally.
-
----
-
-## 💻 Philosophy in Code
-```python
-def approach_to_data_engineering():
-    principles = {
-        "quality": "Test everything, twice",
-        "efficiency": "Automate the boring stuff",
-        "clarity": "Code is read more than written",
-        "impact": "Focus on business value"
-    }
-    return principles
-```
-
----
-
-## 📊 2025 Focus Areas
-```mermaid
-graph LR
-    A[Modern Data Stack] --> B[dbt Mastery]
-    A --> C[Airflow Expertise]
-    A --> D[Cloud Architecture]
-    B --> E[Production Projects]
-    C --> E
-    D --> E
-    E --> F[Analytics Engineering Role]
-```
-
-**Currently Building:**
-- ✅ Production-grade data pipelines
-- ✅ Data quality frameworks
-- ✅ CI/CD for analytics code
-- 🎯 Real-time streaming (next phase)
+- **AWS Certified Cloud Practitioner** • 2025
+- 
+- **ALX Data Science Tech Program** • 1-Year Program • 2023–2024
+- 
+- Currently studying: **Hugging Face LLM Course** & **Hugging Face AI Agents Course**
 
 ---
 
 ## 📍 Now
 
-*Last updated: January 2025*
+*Last updated: July 2026*
 
-**Currently:**
-- 🔨 Building: Data Engineering and analytics engineering projects
-- 📚 Learning: Advanced data modeling patterns (Kimball methodology)
-- 🎯 Seeking: Data Engineer / Analytics Engineer roles
-- 🌱 Reading: "The Data Warehouse Toolkit" by Ralph Kimball
-
-**This Week:**
-- Implementing incremental loads in dbt
-- Building Airflow DAGs for orchestration
-- Networking with data engineers on LinkedIn
-- Contributing to data engineering communities
-
----
-
-## 💭 Philosophy
-
-> *"The best data pipeline is the one you don't have to think about—it just works, scales, and alerts you when it doesn't."*
-
-I believe in:
-- **Automation over manual work** → If I do it twice, I automate it
-- **Documentation as code** → Good docs prevent 3 AM debugging sessions
-- **Test-driven development** → Catch bugs before they catch you
-- **Incremental improvement** → Small wins compound into excellence
-
----
-
-## 🎓 Certifications & Education
-
-**AWS Certified Cloud Practitioner** • 2024  
-**ALX Data Science Tech Programs** • 1-Year Program • 2023-2024
-
----
-
-## ⚡ Fun Fact
-
-When I'm not building data pipelines, I'm probably:
-- ⚽ Training for a football tournament around Nairobi
-- ☕ Experimenting with pour-over coffee (yes, I track the extraction ratios in a spreadsheet)
-- 📖 Reading technical blogs and data engineering case studies
-- ♟️ Playing chess online (data analysis extends to opening theory!)
-
-*I've written SQL queries that join 10+ tables without losing my sanity. My secret? CTEs, lots of CTEs.*
+- 🔨 Building: Fraud detection pipeline on Databricks
+- 📚 Learning: LLM inference frameworks, AI agent architectures
+- 🎯 Seeking: Junior/entry-level Data Engineer roles
+- 🌍 Based in Nairobi, Kenya
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm actively seeking **Analytics Engineer** or **Junior Data Engineer** roles where I can:
-- Build scalable data infrastructure
-- Work with modern data stack (dbt, Airflow, Snowflake, Databricks)
-- Collaborate with data teams solving real problems
-- Learn from experienced engineers
+I'm actively looking for **junior/entry-level Data Engineer** roles
 
 **Reach out if you're:**
-- Hiring for analytics engineering roles
-- Want to discuss data architecture
+- Hiring for data engineering roles
+- Want to talk lakehouse architecture, Delta Lake internals, or dbt patterns
 - Building something interesting in the data space
-- Looking for collaboration on open-source data tools
 
-📧 **Email:** otienoduncan99@gmail.com  
-💼 **LinkedIn:** [duncan-otieno](https://linkedin.com/in/duncan-otieno)  
-📍 **Location:** Nairobi, Kenya (Open to remote)  
-🕐 **Timezone:** EAT (UTC+3)
+📧 **Email:** otienoduncan99@gmail.com
+💼 **LinkedIn:** [duncan-otieno](https://linkedin.com/in/duncan-otieno)
+📍 **Location:** Nairobi, Kenya (Open to remote)
+🕐 **Timezone:** EAT
 
 ---
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=duncan610&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=duncan610&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
----
-
-<div align="center">
-
-### 💡 Current Status
-```diff
-+ Building production-grade projects
-+ Networking with data engineering community
-+ Actively seeking analytics engineering roles
-! Available for opportunities - Let's build something great together
-```
-
----
-
-*"Data is the new electricity, and Engineers are the power grid. Keep Building, Keep Automating, Keep Scaling."*
-
----
-
-**Last Updated:** January 2025
-
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=duncan610&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=duncan610&theme=tokyonight&hide_border=true)
