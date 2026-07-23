@@ -131,6 +131,14 @@ I'm actively looking for **junior/entry-level Data Engineer** roles
 
 ---
 
+---
+
+## 📈 GitHub Stats
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Duncan610&theme=tokyo-night&hide_border=true)
+
+---
+
 ## 📊 GitHub Activity
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=duncan610&theme=tokyonight&hide_border=true)
